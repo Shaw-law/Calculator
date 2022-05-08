@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/display"
+            app:layout_constraintVertical_bias="0.95">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#F41909"
+                    android:textColor="@color/white"
+                    android:text="@string/clearBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/clearBtn"
+                    android:layout_margin="5dp"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="clear"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/power"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/powerBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="powerBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/modulus"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/modulusBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="modulusBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/minus"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:id="@+id/minusBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="minusBtn"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/sevenBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sevenBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="sevenBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/eightBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/eightBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="eightBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/nineBtn"
+                    android:textSize="24sp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nineBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="nineBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/divide"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/divideBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="divideBtn"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/fourBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fourBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="fourBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/fiveBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_margin="5dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fiveBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="fiveBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/sixBtn"
+                    android:textSize="24sp"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sixBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="sixBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/multiply"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/multiplyBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="multiplyBtn"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/oneBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/oneBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="oneBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/twoBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/twoBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="twoBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/threeBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/threeBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="threeBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/plus"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plusBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="plusBtn"/>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/plus_or_minus"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plus_or_minusBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="toggle"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/zeroBtn"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/zeroBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="zeroBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:textColor="@color/white"
+                    android:text="@string/decimal"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/decimalBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="decimalBtn"/>
+
+            <Button
+                    android:background="@drawable/circle"
+                    android:backgroundTint="#F41909"
+                    android:textColor="@color/white"
+                    android:text="@string/equals"
+                    android:textSize="24sp"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/equalsBtn"
+                    style="?android:attr/buttonBarButtonStyle"
+                    android:onClick="equalBtn"/>
+
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+            android:text="@string/display"
+            android:textSize="36sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:editable="false"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="30dp"
+            android:id="@+id/display"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:autofillHints="false"
+            tools:ignore="Deprecated,LabelFor,RtlHardcoded"
+            android:inputType="none"/>
+
+    <Button
+            android:background="@drawable/circle"
+            android:textColor="@color/white"
+            android:text="@string/deleteBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/deleteBtn"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.95"
+            android:onClick="delete"
+            app:layout_constraintVertical_bias="0.469"/>
+
+</android.support.constraint.ConstraintLayout>

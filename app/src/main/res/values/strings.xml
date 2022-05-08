@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="oneBtn">1</string>
+    <string name="twoBtn">2</string>
+    <string name="threeBtn">3</string>
+    <string name="fourBtn">4</string>
+    <string name="fiveBtn">5</string>
+    <string name="sixBtn">6</string>
+    <string name="sevenBtn">7</string>
+    <string name="eightBtn">8</string>
+    <string name="nineBtn">9</string>
+    <string name="zeroBtn">0</string>
+    <string name="clearBtn">C</string>
+    <string name="deleteBtn">\u232B</string>
+    <string name="modulus">%</string>
+    <string name="power">^</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="divide">\u00F7</string>
+    <string name="multiply">\u00D7</string>
+    <string name="equals">=</string>
+    <string name="plus_or_minus">+/-</string>
+    <string name="decimal">.</string>
+    <string name="display">Enter the values</string>
+</resources>
